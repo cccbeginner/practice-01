@@ -16,6 +16,7 @@ RUN curl -sL https://deb.nodesource.com/setup_18.x | bash - && \
     apt-get install -y nodejs
 
 # Install project dependencies
+RUN npm install -g @vue/cli
 RUN npm install
 
 # Expose the port on which your frontend server runs (adjust if necessary)
