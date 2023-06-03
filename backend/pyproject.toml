@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "practice"
+version = "0.1.0"
+description = ""
+authors = ["cccbeginner <arvin.tsai.0113@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.3.2"
+alembic = "^1.11.1"
+postgres = "^4.0"
+psycopg2-binary = "^2.9.6"
+psycopg2 = "^2.9.6"
+uvicorn = "^0.22.0"
+fastapi = "^0.95.2"
+python-jose = "^3.3.0"
+passlib = "^1.7.4"
+python-multipart = "^0.0.6"
+pydantic = "^1.10.7"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.3.1"
+requests = "^2.31.0"
+httpx = "^0.24.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
